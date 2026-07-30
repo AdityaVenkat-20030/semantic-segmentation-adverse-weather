@@ -1,0 +1,4 @@
+model,train_dataset,test_dataset,loss,pixel_accuracy,miou,experiment_type
+U-Net ResNet50,IDD-AW,IDD-AW,0.4904,0.8862,0.4036,adverse_weather_baseline
+U-Net ResNet50,IDD Clean,IDD Clean,0.3885,0.8974,0.4866,clean_weather_baseline
+U-Net ResNet50,IDD Clean,IDD-AW,0.8674,0.8389,0.3444,cross_domain_robustness_test

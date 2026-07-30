@@ -1,0 +1,31 @@
+data_root: "data/idd_aw"       
+image_root: "dissertation/data/idd_aw/IDDAW"
+mask_root: "dissertation/data/processed/iddaw_masks"
+num_classes: 42
+ignore_index: 255
+image_height: 512
+image_width: 1024
+
+
+model: "unet"
+encoder: "resnet50"
+pretrained: true              
+
+epochs: 40
+batch_size: 2                  
+val_batch_size: 2
+num_workers: 4
+
+
+optimizer: "adamw"
+lr: 0.00005                     
+weight_decay: 0.0001
+
+
+amp: true
+
+loss: "cross_entropy"
+class_weights: false
+
+
+output_dir: "dissertation/results/unet"

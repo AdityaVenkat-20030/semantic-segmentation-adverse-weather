@@ -1,0 +1,32 @@
+# configs/segformer_idd_clean.yaml — SegFormer training on clean IDD
+
+data_root: "dissertation/data/idd"
+
+image_root: "dissertation/data/idd/IDD_Segmentation/leftImg8bit"
+mask_root: "dissertation/data/processed/idd_mask"
+
+num_classes: 42
+ignore_index: 255
+
+image_height: 512
+image_width: 1024
+
+model: "segformer"
+backbone: "mit_b2"
+pretrained: true
+pretrained_checkpoint: "dissertation/pretrained/segformer-b2-cityscapes"
+
+epochs: 40
+batch_size: 2
+val_batch_size: 2
+num_workers: 4
+
+optimizer: "adamw"
+lr: 0.00005
+weight_decay: 0.0001
+
+amp: true
+loss: "cross_entropy"
+class_weights: false
+
+output_dir: "dissertation/results/segformer_idd_clean"

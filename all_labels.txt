@@ -1,0 +1,46 @@
+
+Unique labels:
+animal
+autorickshaw
+autorickshaw_new
+bicycle
+billboard
+billboard_new
+bridge
+building
+bus
+car
+caravan
+curb
+curb_new
+drivable fallback
+drivable fallback_new
+fallback background
+fence
+guard rail
+motorcycle
+non-drivable fallback
+obs-str-bar-fallback
+obs-str-bar-fallback_new
+out of roi
+parking
+person
+pole
+polegroup
+rail track
+rider
+road
+sidewalk
+sky
+terrain
+traffic light
+traffic sign
+trailer
+train
+truck
+vegetation
+vehicle fallback
+vehicle fallback_new
+wall
+
+Total labels: 42

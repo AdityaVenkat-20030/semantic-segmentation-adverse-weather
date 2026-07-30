@@ -1,0 +1,4 @@
+model,train_dataset,test_dataset,loss,pixel_accuracy,miou,experiment_type
+SegFormer-B2,IDD-AW,IDD-AW,0.4263955059954348,0.9091417971499464,0.484010965981053,adverse_weather_baseline
+SegFormer-B2,IDD Clean,IDD Clean,0.3576996847152588,0.9109382889235424,0.5287534831324493,clean_weather_baseline
+SegFormer-B2,IDD Clean,IDD-AW,0.8517718147956023,0.8768867570827132,0.4090779723429018,cross_domain_robustness_test

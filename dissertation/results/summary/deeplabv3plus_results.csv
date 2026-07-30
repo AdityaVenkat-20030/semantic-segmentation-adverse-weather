@@ -1,0 +1,4 @@
+model,train_dataset,test_dataset,loss,pixel_accuracy,miou,experiment_type
+DeepLabV3+ ResNet50,IDD-AW,IDD-AW,0.4691,0.8949,0.4495,adverse_weather_baseline
+DeepLabV3+ ResNet50,IDD Clean,IDD Clean,0.4256,0.9031,0.5096,clean_weather_baseline
+DeepLabV3+ ResNet50,IDD Clean,IDD-AW,0.9744,0.8572,0.3715,cross_domain_robustness_test
