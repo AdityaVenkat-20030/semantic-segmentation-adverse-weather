@@ -26,8 +26,8 @@ The following models are implemented and evaluated:
 
 The project uses:
 
-- IDD: clean-weather Indian road-scene dataset
-- IDD-AW: adverse-weather Indian road-scene dataset
+- IDD: clean-weather Indian road-scene dataset {IDD Segmentation (IDD 20k Part I) & IDD Segmentation (IDD 20k Part II)}, Download Link: https://idd.insaan.iiit.ac.in/dataset/download/
+- IDD-AW: adverse-weather Indian road-scene dataset, Download Link: https://idd.insaan.iiit.ac.in/dataset/download/
 
 The adverse-weather categories are:
 
@@ -36,7 +36,7 @@ The adverse-weather categories are:
 - Snow
 - Lowlight
 
-The repository does not include datasets because of size and licensing constraints.
+The repository does not include datasets because of size and licensing constraints, please download the datasets from the links provided above and follow the below provided structure.
 
 Expected local dataset structure:
 
